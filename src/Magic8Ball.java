@@ -21,28 +21,28 @@ public class Magic8Ball {
 
         System.out.println("hello, what is your question for me?");
         question = Keyboard.nextLine();
-        System.out.print(" Now, pick a number one and 100");
+        System.out.print("Now, pick a number between one and 100");
         number = Keyboard.nextFloat();
 
-
+        if (number>0 && number<10) {
+            System.out.println("The outlook does look good");
+        }
+        else if (number>11 && number<20) {
+            System.out.println("There is a bright future ahead");
+        }
+        else if (number>21 && number<30){
+            System.out.println("not possible");
+        }
+        else if (number>31 && number<40){
+            System.out.print("As I see it, yes");
+        }
+        else if (number>41 && number<50){
+            System.out.println("Don't count on it");
+        }
+     
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-    \
-
-    }
-}
 
 
 
