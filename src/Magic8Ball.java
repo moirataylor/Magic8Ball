@@ -54,6 +54,10 @@ public class Magic8Ball {
         else if (number>91 && number<100){
             System.out.println("Without a doubt");
         }
+        else if (number == 0){
+            System.out.println("Try again please");
+        }
+
     }
 }
 
