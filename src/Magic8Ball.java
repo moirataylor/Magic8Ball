@@ -19,6 +19,31 @@ public class Magic8Ball {
 
         Keyboard = new Scanner(System.in);
 
+        System.out.println("hello, what is your question for me?");
+        question = Keyboard.nextLine();
+        System.out.print(" Now, pick a number one and 100");
+        number = Keyboard.nextFloat();
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    \
+
+    }
+}
+
 
 
 
