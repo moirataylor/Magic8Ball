@@ -39,7 +39,21 @@ public class Magic8Ball {
         else if (number>41 && number<50){
             System.out.println("Don't count on it");
         }
-     
+        else if (number>51 && number<60){
+            System.out.println("It is certain");
+        }
+        else if (number>61 && number<70){
+            System.out.println("very doubtful");
+        }
+        else if (number>71 && number<80){
+            System.out.println("You may rely on it");
+        }
+        else if (number>81 && number<90){
+            System.out.println("My sources say no");
+        }
+        else if (number>91 && number<100){
+            System.out.println("Without a doubt");
+        }
     }
 }
 
